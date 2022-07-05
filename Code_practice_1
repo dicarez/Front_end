@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head><title>YOur website</title>
+    <style>
+      .footer{
+        text-align:center;
+        padding: 10px;
+        backgroung-color:#ddd;
+        
+      }
+      table{
+        width: 100%;
+        border: 1px solid black;
+        
+          
+      }
+      dt{
+        font-weight:bold;
+        font-size:1.2em;
+        
+      }
+      selection{
+        padding:10px;
+        border:1px solid black;
+        margin:10px;
+      }
+      </style>
+    </head>
+  <body>
+    <header class="header"><h1>Laurence Svekis Resume</h1></header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#Exp">Experience</a></li>
+        <li><a href="#Education_link">Education</a></li>
+        <li><a href="#Interests_link">Interests</a></li>
+        <li><a href="#Need#Link">Skills</a></li>
+        <li><a href="#Contact_link">Contact</a></li>
+        </ul>
+      </nav>
+    <article><p>
+      Don't bother
+      </p>
+      <hr>
+      <p>Your name is Laurence</p>
+      <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEAtQ9VQ0Z7rA/profile-displayphoto-shrink_200_200/0/1632867219913?e=1639612800&v=beta&t=_B4leYocoUhtPWxzpUx5rcrhOTU4suzGe5CuVXR-IE8">
+</article>
+    <section id="Exp">
+      <h2>Experience</h2>
+      <table>
+        <colgroup>
+          <col span= "1" style="background-color: #ddd;">
+          </colgroup>
+        <tr><th>Company</th>
+          <th>Details</th>
+          <th>Years</th>
+          </tr>
+        <tr>
+          <td>Discoveryvip</td>
+          <td>Created courses</td>
+          <td>2002 - 2021</td>
+          </tr>
+        <tr>
+          <td>Basescripts</td>
+          <td>Online elearning</td>
+          <td>2010-2015</td>
+          </tr>
+        <tr>
+          <td>Discoverynovip</td>
+          <td>Courses</td>
+          <td>2000-2015</td>
+          </tr>
+        </table>
+      </section>
+    <hr>
+    <section id="Education_link">
+      <h4>Education</h2>
+      <dl>
+        <dt>Your university</dt>
+        <dd>MBBBA</dd>
+        <dt>Degree</dt>
+        <dd>Computer science</dd>
+        </dl>
+      </section>
+    <section id="Interests_link">
+      <h2>Interests</h2>
+      <ul>
+        <li>Computers</li>
+        <li>Skiing</li>
+        <li>Swimming</li>
+        </ul>
+      </section>
+    <section id="Need#Link">
+      <h3>Skills</h2>
+      <ol>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Javascript
+          <ul>
+            <li>DOM</li>
+            <li>Node</li>
+            <li>Google Apps Scripts</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+    <section id="Contact_link">
+      <h2>Contact me</h2>
+      <p>
+        Contact me at my email <a href= "mailto:laurenceSvekis@myemail.com"> Your email</a>
+        </p>
+      </section>
+    <footer class="footer">Copyright(c)2022 Laurecen Svekis Content please contact me to find out more</footer>
+    </body>
+  </html>
+  
